@@ -1,0 +1,52 @@
+.table-layout {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.campaigns-table {
+  border: 1px solid rgba(9, 30, 66, .12);
+  border-radius: 5px;
+  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.table-wrapper {
+  height: 615px;
+  width: 800px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(9, 30, 66, .12);
+}
+div.table-wrapper >div.table-row:nth-of-type(odd) {
+  background: #f8f6ff;
+}
+div.table-wrapper {
+  .table-header {
+    padding: 5px 10px 5px 10px;
+    background: #6c7ae0;
+    color: white;
+  }
+}
+
+
+.table-options {
+  border-bottom: 1px solid rgba(9, 30, 66, .12);
+  padding: 10px;
+  display: flex;
+  .search {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.pagination {
+  padding: 10px;
+}
+
+.actions {
+  display: flex;
+  svg {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+}

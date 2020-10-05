@@ -4,8 +4,22 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  height: 100%;
   -moz-osx-font-smoothing: grayscale;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  transition: all 300ms linear;
+}
+
+ul, li {
+  margin: 0px;
+  list-style-type: none;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -1,0 +1,13 @@
+
+.search-bar {
+  padding: 10px;
+  outline: none;
+  color: rgba(9, 30, 66, .74);
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid rgba(9, 30, 66, .12);
+  width: 90%;
+  &:focus {
+    border: 1px solid #36b37e;
+  }
+}

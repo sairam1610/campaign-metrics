@@ -1,0 +1,4 @@
+export const LOAD_TABLE_DATA = 'LOAD_TABLE_DATA';
+export const SET_TABLE_DATA = 'SET_TABLE_DATA';
+export const SET_PAGE_NUMBER = 'SET_PAGE_NUMBER';
+export const SEARCH_TABLE = 'SEARCH_TABLE ';
